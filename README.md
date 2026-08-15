@@ -41,13 +41,16 @@ verified installation command and do not invent features, metrics, or sponsors.
 2. Run [README Fact Checker](https://github.com/lukatong/readme-fact-checker) to verify local file references and basic documentation signals before drafting.
 3. Identify the primary reader and their first successful outcome.
 4. Audit the current README against the criteria in `SKILL.md`.
-5. Propose the smallest structural changes that make installation and value clearer.
-6. Write a complete replacement only after facts and commands are verified.
-7. Report assumptions and anything that needs maintainer confirmation.
+5. Use [Open Source Screenshot Planner](https://github.com/lukatong/open-source-screenshot-planner) when the reader path needs real product evidence, screenshot placement, or better alt text.
+6. Propose the smallest structural changes that make installation and value clearer.
+7. Write a complete replacement only after facts and commands are verified.
+8. Report assumptions and anything that needs maintainer confirmation.
 
-## Companion CLI
+## Companion Tools
 
 [README Fact Checker](https://github.com/lukatong/readme-fact-checker) is a zero-dependency CLI for deterministic checks before a rewrite. It detects missing local links and image paths, untagged code fences, missing setup files for documented commands, and funding configuration mismatches. It reads local files only and does not execute README commands.
+
+[Open Source Screenshot Planner](https://github.com/lukatong/open-source-screenshot-planner) turns a README's first-run workflow into a small capture plan with real product states, stable image paths, placement, redaction requirements, and useful alt text. It plans media only; it does not generate or fabricate screenshots.
 
 ## Example
 
