@@ -1,0 +1,44 @@
+name: Case study feedback
+description: Report a factual issue or suggest an improvement to a published README makeover case study.
+title: "Case study feedback: "
+labels:
+  - case-study-feedback
+body:
+  - type: dropdown
+    id: case-study
+    attributes:
+      label: Case study
+      options:
+        - ProjectSend
+        - Token Monitor
+        - Inventory Watch fictional example
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Feedback type
+      options:
+        - Incorrect repository fact
+        - Outdated command or link
+        - Missing risk or prerequisite
+        - Information architecture suggestion
+        - Accessibility or clarity suggestion
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Include the specific case-study section, the source that supports your feedback, and the proposed correction.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included credentials, private data, or unpublished vulnerability details.
+          required: true

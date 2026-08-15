@@ -1,0 +1,57 @@
+name: README audit request
+description: Request a fact-checked audit and proposed README structure for an open-source repository.
+title: "README audit: "
+labels:
+  - audit-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only public repository information. Do not include credentials, access tokens, private URLs, customer data, or production logs.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: Link the public GitHub repository to audit.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: target-reader
+    attributes:
+      label: Primary reader
+      description: Select the reader whose first successful path should be improved.
+      options:
+        - First-time self-hoster
+        - End user of a desktop application
+        - Developer evaluating a library or API
+        - CLI user
+        - Project contributor
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: first-success
+    attributes:
+      label: Intended first successful result
+      description: State the concrete outcome a reader should reach after following the README.
+      placeholder: Start the service locally and open its setup screen.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Known README concern
+      description: Explain what readers currently struggle to understand or complete. Links to relevant issues or discussions are welcome.
+      placeholder: The install path is split across several pages and users miss the required environment variable.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The repository is public and I may link to it in a public case study.
+          required: true
+        - label: I have not included passwords, tokens, private data, or unpublished vulnerability details.
+          required: true
