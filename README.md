@@ -61,6 +61,8 @@ The `examples/inventory-watch/` directory contains a fictional before/after case
 - [ProjectSend README Makeover Proposal](examples/projectsend/README.md): a fact-checked, independent proposal that moves the existing Docker first-run path ahead of product detail for a first-time self-hoster. It is not an upstream change or maintainer endorsement.
 - [Token Monitor README Makeover Proposal](examples/token-monitor/README.md): a fact-checked, independent proposal for a desktop developer tool that promotes its existing download and local-first path ahead of detailed tool-reference material, using its verified GitHub Sponsors destination only.
 
+The [README Makeover Case Tracker](https://github.com/lukatong/readme-makeover-case-tracker) records public upstream proposals, maintainer feedback, pull requests, and outcomes for these cases. Status changes require linked public evidence.
+
 ## Scope
 
 This skill improves repository-facing documentation. It does not:
