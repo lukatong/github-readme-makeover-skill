@@ -38,11 +38,16 @@ verified installation command and do not invent features, metrics, or sponsors.
 ## Workflow
 
 1. Inspect repository metadata, documentation, installation files, and funding configuration.
-2. Identify the primary reader and their first successful outcome.
-3. Audit the current README against the criteria in `SKILL.md`.
-4. Propose the smallest structural changes that make installation and value clearer.
-5. Write a complete replacement only after facts and commands are verified.
-6. Report assumptions and anything that needs maintainer confirmation.
+2. Run [README Fact Checker](https://github.com/lukatong/readme-fact-checker) to verify local file references and basic documentation signals before drafting.
+3. Identify the primary reader and their first successful outcome.
+4. Audit the current README against the criteria in `SKILL.md`.
+5. Propose the smallest structural changes that make installation and value clearer.
+6. Write a complete replacement only after facts and commands are verified.
+7. Report assumptions and anything that needs maintainer confirmation.
+
+## Companion CLI
+
+[README Fact Checker](https://github.com/lukatong/readme-fact-checker) is a zero-dependency CLI for deterministic checks before a rewrite. It detects missing local links and image paths, untagged code fences, missing setup files for documented commands, and funding configuration mismatches. It reads local files only and does not execute README commands.
 
 ## Example
 
