@@ -4,6 +4,8 @@ A reusable skill for turning a technically capable but hard-to-understand GitHub
 
 Use it when a repository has an unclear project pitch, a confusing installation path, scattered documentation, weak screenshots, or no visible sponsor/support path.
 
+**Need an audit?** Open a [README audit request](https://github.com/lukatong/github-readme-makeover-skill/issues/new?template=readme-audit-request.yml) for a public repository. Include the target reader and the first successful result the README should support.
+
 ## What It Produces
 
 - A short audit prioritized by user impact.
@@ -26,6 +28,8 @@ Restart OpenCode after adding the skill so it is loaded by a new session.
 ## Use
 
 Give the skill a repository URL or local repository path and state the target reader. Useful inputs include the current `README.md`, installation instructions, screenshots, documentation URLs, and verified sponsorship links.
+
+For a public repository you do not maintain, use the [README audit request form](https://github.com/lukatong/github-readme-makeover-skill/issues/new?template=readme-audit-request.yml). Do not include credentials, tokens, private URLs, customer data, production logs, or unpublished security details.
 
 Example request:
 
