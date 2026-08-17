@@ -52,6 +52,12 @@ verified installation command and do not invent features, metrics, or sponsors.
 
 [Open Source Screenshot Planner](https://github.com/lukatong/open-source-screenshot-planner) turns a README's first-run workflow into a small capture plan with real product states, stable image paths, placement, redaction requirements, and useful alt text. It plans media only; it does not generate or fabricate screenshots.
 
+[README Evidence Report](https://github.com/lukatong/readme-evidence-report) combines deterministic Fact Checker output, a target reader, and an optional screenshot plan into a review-ready Markdown report for an Issue or pull request.
+
+[README Freshness Checker](https://github.com/lukatong/readme-freshness-checker) checks whether the README revision used for an audit still matches the current upstream README before a proposal or pull request is reused.
+
+[README PR Composer](https://github.com/lukatong/readme-pr-composer) prepares conservative README-only pull request text after explicit maintainer approval. It does not create upstream changes.
+
 ## Example
 
 The `examples/inventory-watch/` directory contains a fictional before/after case. It demonstrates the expected deliverables without claiming changes to a real project.
