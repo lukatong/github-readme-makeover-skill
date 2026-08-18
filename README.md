@@ -6,6 +6,8 @@ Use it when a repository has an unclear project pitch, a confusing installation 
 
 **Need an audit?** Open a [README audit request](https://github.com/lukatong/github-readme-makeover-skill/issues/new?template=readme-audit-request.yml) for a public repository. Include the target reader and the first successful result the README should support.
 
+文章：[别让 AI 直接改 README：我做了一套先核验、再改写、再追踪结果的开源工具链](https://juejin.cn/post/7675286086838845490)
+
 ## What It Produces
 
 - A short audit prioritized by user impact.
